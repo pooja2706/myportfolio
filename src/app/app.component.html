@@ -1,1 +1,19 @@
+<body>
+  <div class="container">
+    <section class="left-container">
+      <div class="dp"></div>
+      <div class="profession">Software Engineer</div>
+      <button class="routing-buttons" *ngFor="let list of listofbuttons" (click)="navigationCall(list)">
+        {{list}}
+      </button>
+    </section>
+    <section class="right-container">
+      <app-home *ngIf="state==listofbuttons[0]"></app-home>
+    <app-about *ngIf="state==listofbuttons[1]"></app-about>
+
+    </section>
+  </div>
+
+</body>
+
 <router-outlet></router-outlet>

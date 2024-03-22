@@ -1,0 +1,30 @@
+body{
+  display: grid;
+  padding-left: 40px;
+  height: 600px;
+}
+
+.container{
+    margin: auto;
+    width: 632px;
+    line-height: 25px;
+    text-align: justify;
+}
+.about{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.who-am-i{
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(116, 110, 110);
+  font-family: auto;
+  font-size: 20px;
+}
+
+.who-am-i-content{
+  margin-top: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}

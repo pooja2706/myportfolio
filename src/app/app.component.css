@@ -1,0 +1,56 @@
+body{
+  height: -webkit-fill-available;
+  /* background-color: aliceblue; */
+  display: grid;
+}
+.container{
+  height: 600px;
+  width: -webkit-fill-available;
+  /* background-color: aqua; */
+  display: flex;
+}
+.left-container{
+  width: 20%;
+  display: grid;
+  background-color: #e5e2e2;
+}
+.right-container{
+  width: -webkit-fill-available;
+  height: fit-content;
+  display: grid;
+  background-color: #f8f8f8;
+}
+
+.routing-buttons{
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.dp{
+  width: 100px;
+  height: 100px;
+  background: url('https://media.licdn.com/dms/image/D4D03AQFUGMglhm6p8Q/profile-displayphoto-shrink_400_400/0/1708531865973?e=1716422400&v=beta&t=p_TpsUXCXQsHRWa50NstdPqI3zR1i7l1REitkiMg8u8');
+  background-size: cover;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.routing-buttons:hover{
+  cursor: pointer;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+}
+
+.profession{
+  margin: auto;
+  text-align: center;
+}
+
+iframe{
+    height: 780px;
+    width: 390px;
+    scale: 0.7;
+}
