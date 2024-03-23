@@ -8,8 +8,14 @@
       </button>
     </section>
     <section class="right-container">
-      <app-home *ngIf="state==listofbuttons[0]"></app-home>
-    <app-about *ngIf="state==listofbuttons[1]"></app-about>
+      <app-home       *ngIf="state==listofbuttons[0]"></app-home>
+      <app-about      *ngIf="state==listofbuttons[1]"></app-about>
+      <app-skills     *ngIf="state==listofbuttons[2]"></app-skills>
+      <app-languages  *ngIf="state==listofbuttons[3]"></app-languages>
+      <app-projects   *ngIf="state==listofbuttons[4]"></app-projects>
+      <app-education  *ngIf="state==listofbuttons[5]"></app-education>
+      <app-experience *ngIf="state==listofbuttons[6]"></app-experience>
+      <app-contact    *ngIf="state==listofbuttons[7]"></app-contact>
 
     </section>
   </div>
